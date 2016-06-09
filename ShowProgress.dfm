@@ -1,0 +1,30 @@
+object frmProgress: TfrmProgress
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  ClientHeight = 20
+  ClientWidth = 498
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Progress: TcxProgressBar
+    Left = 0
+    Top = 0
+    Align = alClient
+    Properties.BarStyle = cxbsGradientLEDs
+    Properties.BeginColor = 54056
+    Properties.PeakValue = 86.000000000000000000
+    Properties.ShowTextStyle = cxtsText
+    TabOrder = 0
+    ExplicitWidth = 473
+    Width = 498
+  end
+end

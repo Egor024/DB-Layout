@@ -1,0 +1,168 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{3743027E-A484-40BE-A0A5-34E6A237A9F7}</ProjectGuid>
+			<MainSource>OraForms.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<ProjectVersion>12.3</ProjectVersion>
+			<Base>True</Base>
+			<Platform>Win32</Platform>
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UsePackage>vclimg;vcl;vclx;dbrtl;Rave90VCL;bdertl;VclSmp;rtl;svnui;svn;TeeUI;TeeDB;Tee;vclactnband;vcldb;vcldbx;vcltouch;xmlrtl;dsnap;dsnapcon;vclib;ibxpress;adortl;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_110_150;Intraweb_110_150;vclie;websnap;webdsnap;inetdb;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DbxClientDriver;DataSnapClient;dbxcds;DataSnapServer;AzureCloud;DBXInterBaseDriver;DBXMySQLDriver;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;CodeSiteExpressVcl;ClsObjects;cxGridRS15;cxTreeListRS15;cxEditorsRS15;cxDataRS15;cxPageControlRS15;dxThemeRS15;dxGDIPlusRS15;cxLibraryRS15;dxCoreRS15;madBasic_;madDisAsm_;madExcept_;dxServerModeRS15;dxDBXServerModeRS15;dxADOServerModeRS15;dxWizardControlRS15;cxBarEditItemRS15;dxBarRS15;dxComnRS15;dxBarExtDBItemsRS15;dxBarExtItemsRS15;dxBarDBNavRS15;dxRibbonRS15;dxTabbedMDIRS15;dxLayoutControlRS15;cxExportRS15;cxVerticalGridRS15;dxmdsRS15;dxNavBarRS15;dxSkinsCoreRS15;dxSkinBlackRS15;dxSkinBlueprintRS15;dxSkinBlueRS15;dxSkinCaramelRS15;dxSkinCoffeeRS15;dxSkinDarkRoomRS15;dxSkinDarkSideRS15;dxSkinDevExpressDarkStyleRS15;dxSkinDevExpressStyleRS15;dxSkinFoggyRS15;dxSkinGlassOceansRS15;dxSkinHighContrastRS15;dxSkiniMaginaryRS15;dxSkinLilianRS15;dxSkinLiquidSkyRS15;dxSkinLondonLiquidSkyRS15;dxSkinMcSkinRS15;dxSkinMetropolisDarkRS15;dxSkinMetropolisRS15;dxSkinMoneyTwinsRS15;dxSkinOffice2007BlackRS15;dxSkinOffice2007BlueRS15;dxSkinOffice2007GreenRS15;dxSkinOffice2007PinkRS15;dxSkinOffice2007SilverRS15;dxSkinOffice2010BlackRS15;dxSkinOffice2010BlueRS15;dxSkinOffice2010SilverRS15;dxSkinOffice2013DarkGrayRS15;dxSkinOffice2013LightGrayRS15;dxSkinOffice2013WhiteRS15;dxSkinPumpkinRS15;dxSkinSevenClassicRS15;dxSkinSevenRS15;dxSkinSharpPlusRS15;dxSkinSharpRS15;dxSkinSilverRS15;dxSkinSpringTimeRS15;dxSkinStardustRS15;dxSkinSummer2008RS15;dxSkinTheAsphaltWorldRS15;dxSkinValentineRS15;dxSkinVS2010RS15;dxSkinWhiteprintRS15;dxSkinXmas2008BlueRS15;dxPSCoreRS15;dxPSTeeChartRS15;dxPSLnksRS15;dxPSDBTeeChartRS15;dxPScxPCProdRS15;cxPivotGridRS15;dxdbtrRS15;dxtrmdRS15;dxorgcRS15;dxdborRS15;dxFlowChartRS15;cxSchedulerRibbonStyleEventEditorRS15;cxSchedulerRS15;cxSchedulerGridRS15;cxTreeListdxBarPopupMenuRS15;dxSkinscxPCPainterRS15;dxSkinscxSchedulerPainterRS15;dxSkinsdxBarPainterRS15;dxSkinsdxNavBarPainterRS15;dxSkinsdxRibbonPainterRS15;dxSkinsdxDLPainterRS15;dxDockingRS15;dxPScxCommonRS15;dxPScxExtCommonRS15;dxPSdxLCLnkRS15;dxPScxPivotGridLnkRS15;dxPScxSchedulerLnkRS15;dxPScxSSLnkRS15;cxSpreadSheetRS15;dxPScxTLLnkRS15;dxPScxVGridLnkRS15;dxPSdxDBOCLnkRS15;dxPSdxOCLnkRS15;dxPSdxDBTVLnkRS15;dxPSdxFCLnkRS15;dxPScxGridLnkRS15;dxPSdxSpreadSheetLnkRS15;dxSpreadSheetRS15;dxPsPrVwAdvRS15;dxPSPrVwRibbonRS15;cxPivotGridChartRS15;dacvcl150;dac150;crcontrols150;odacvcl150;odac150</DCC_UsePackage>
+			<DCC_DependencyCheckOutputName>MDIAPP.exe</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_UnitSearchPath>$(BDS)\units;$(BDS)\vcl;$(BDS)\rtl;$(BDS)\db;$(BDS)\app\ui\res;$(BDS)\app\ed\res;$(BDS)\app\design;$(BDS)\qt;$(BDS)\clx;.\CustomLayout;.\Utils;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_SymbolReferenceInfo>1</DCC_SymbolReferenceInfo>
+			<DCC_N>true</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_K>false</DCC_K>
+			<DCC_E>false</DCC_E>
+			<DCC_F>false</DCC_F>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_DcuOutput>.\Debug\Win32\</DCC_DcuOutput>
+			<DCC_ExeOutput>.\Debug\Win32\</DCC_ExeOutput>
+			<DCC_UnitSearchPath>C:\Program Files\Devart\ODAC for RAD Studio XE\Source;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+			<DCC_DebugInfoInTds>true</DCC_DebugInfoInTds>
+			<DCC_MapFile>3</DCC_MapFile>
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="OraForms.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="LMain.pas">
+				<Form>frmMain</Form>
+			</DCCReference>
+			<DCCReference Include="PassChange.pas">
+				<Form>frmPassChange</Form>
+			</DCCReference>
+			<DCCReference Include="XLS_work.pas">
+				<Form>frmXLSwork</Form>
+			</DCCReference>
+			<DCCReference Include="ShowProgress.pas">
+				<Form>frmProgress</Form>
+			</DCCReference>
+			<DCCReference Include="XLS_user_work.pas">
+				<Form>frmXLSUserWork</Form>
+			</DCCReference>
+			<DCCReference Include="LayoutORAData.pas"/>
+			<DCCReference Include="LayoutData.pas"/>
+			<DCCReference Include="TestStartCard.pas">
+				<Form>frmStartCard</Form>
+			</DCCReference>
+			<RcItem Include="DevExRus100Proc.ini">
+				<ContainerId>ResourceItem</ContainerId>
+				<ResourceType>RCDATA</ResourceType>
+				<ResourceId>russian</ResourceId>
+			</RcItem>
+			<RcItem Include="OraSprApplications.frm">
+				<ContainerId>ResourceItem</ContainerId>
+				<ResourceType>RCDATA</ResourceType>
+				<ResourceId>OraSprApplications</ResourceId>
+			</RcItem>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">OraForms.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="RunParams">TOraLayoutSession:111.222.11.22:1521:SID=myDB schema1</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1033</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="C:\bin\JvDBDesign150.bpl">JVCL Database Components</Excluded_Packages>
+						<Excluded_Packages Name="C:\bin\JclSIMDViewExpert150.bpl">JCL Debug Window of XMM registers</Excluded_Packages>
+						<Excluded_Packages Name="C:\bin\JclStackTraceViewerExpert150.bpl">JCL Stack Trace Viewer</Excluded_Packages>
+						<Excluded_Packages Name="C:\bin\JvDlgsDesign150.bpl">JVCL Dialog Components</Excluded_Packages>
+						<Excluded_Packages Name="C:\bin\JvPageCompsDesign150.bpl">JVCL Page Style Components</Excluded_Packages>
+						<Excluded_Packages Name="C:\bin\JvPluginSystemDesign150.bpl">JVCL Plugin Components</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files\DevExpress VCL\Library\RS15\dclcxSchedulerTreeBrowserRS15.bpl">ExpressScheduler tree browser by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files\DevExpress VCL\Library\RS15\dcldxDockingRS15.bpl">ExpressDocking Library by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files\DevExpress VCL\Library\RS15\dcldxSpellCheckerRS15.bpl">ExpressSpellChecker 2 by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files\DevExpress VCL\Library\RS15\dclcxSpreadSheetRS15.bpl">ExpressSpreadSheet by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files\DevExpress VCL\Library\RS15\dcldxTileControlRS15.bpl">ExpressTileControl by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files\DevExpress VCL\Library\RS15\dclcxPivotGridOLAPRS15.bpl">ExpressPivotGrid OLAP by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files\DevExpress VCL\Library\RS15\dcldxSpreadSheetRS15.bpl">ExpressSpreadSheet by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dcloffice2k150.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dclofficexp150.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+				<UnitTesting>
+					<TestProjectName>C:\work\trunk\OraForms\Test\OraFormsTests.dproj</TestProjectName>
+				</UnitTesting>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

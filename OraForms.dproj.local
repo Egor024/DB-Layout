@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.254,C:\tmp\507335998\OraForms\DevExRus100Proc.ini=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.926,=C:\tmp\507335998\OraForms\DevExRus100Proc.ini</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.246,c:\program files\embarcadero\rad studio\8.0\source\db\DB.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.443,=C:\tmp\507335998\OraForms\LayoutData.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.041,C:\work\OraForms\ORANavigators.pas=C:\work\OraForms\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.300,=C:\tmp\507335998\OraForms\DevExRus100Proc.ini</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.863,=c:\program files\embarcadero\rad studio\8.0\source\db\DB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.979,C:\work\trunk\OraForms\CustomLayout\OraImageListEditorView.pas=C:\work\trunk\OraForms\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.895,C:\work\trunk\OraForms\PassChange.dfm=C:\work\trunk\OraForms\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.583,=C:\tmp\507335998\OraForms\OraSprApplications.frm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.235,C:\work\OraForms\Unit1.dfm=C:\work\OraForms\XLS_work.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.781,C:\work\OraForms\Unit1.dfm=C:\work\OraForms\CustomLayout\ORALayoutCaptioner.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.031,=C:\tmp\507335998\OraForms\TestStartCard.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.298,C:\work\OraForms\NewApp.dfm=C:\work\OraForms\AppConfig.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.895,C:\work\OraForms\NewApp.dfm=C:\work\OraForms\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.599,=C:\tmp\507335998\OraForms\LayoutORAData.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.568,C:\tmp\507335998\OraForms\DataModule.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.740,C:\work\trunk\OraForms\OraForms.dproj=C:\work\trunk\OraForms\Galaxy.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.394,C:\work\OraForms\StartCardTest.dfm=C:\work\OraForms\StartCard.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.416,C:\tmp\507335998\OraForms\SprApplications.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.508,=C:\tmp\507335998\OraForms\SprApplications.frm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.218,C:\tmp\507335998\OraForms\StartCard.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.585,C:\work\OraForms\ShowProgress.dfm=C:\work\OraForms\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.979,C:\work\trunk\OraForms\CustomLayout\OraImageListEditorView.dfm=C:\work\trunk\OraForms\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,C:\work\trunk\OraForms\CustomLayout\ExportSettings.dfm=C:\work\trunk\LIBS\LIBSFORMS\ExportSettings.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.958,C:\work\OraForms\XLS_user_work.dfm=C:\work\OraForms\Unit1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="LMain.pas"/>
+    <File Path="LMain.dfm"/>
+    <File Path="PassChange.pas"/>
+    <File Path="PassChange.dfm"/>
+    <File Path="ShowProgress.pas"/>
+    <File Path="ShowProgress.dfm"/>
+    <File Path="XLS_user_work.pas"/>
+    <File Path="XLS_user_work.dfm"/>
+    <File Path="XLS_work.pas"/>
+    <File Path="XLS_work.dfm"/>
+    <File Path="LayoutORAData.pas"/>
+    <File Path="LayoutData.pas"/>
+    <File Path="DevExRus100Proc.ini"/>
+    <File Path="OraSprApplications.frm"/>
+    <File Path="TestStartCard.pas"/>
+    <File Path="TestStartCard.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
