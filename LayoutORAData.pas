@@ -1059,7 +1059,7 @@ begin
           OCISvcCtx := TOraLayoutSession(mainSessionComponent).OCISvcCtx
       else OCISvcCtx := Session.OCISvcCtx;
       CreateTemporary(ltBlob);
-      AsWideString := Clipboard.AsText + #13#10;
+      AsWideString := pValue;
       WriteLob;
     end;
   end;
